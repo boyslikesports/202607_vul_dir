@@ -19,17 +19,6 @@
 ## 3. Vulnerability Description
 The rider backend order management controller `/rider/orders/controller.php` of Online Medicine Delivery System contains a file upload vulnerability in the `doInsert()` function. The function uses `getimagesize()` to verify whether the uploaded file is an image, but does not perform whitelist validation on file extensions or randomly rename uploaded files. An attacker can craft a GIF89a image shell to bypass the check while retaining the `.php` extension so the server parses and executes it as a PHP script.
 
-**Key Finding**: The controller includes a session authentication check at lines 5-7:
-
-```php
-if (!isset($_SESSION['USERID'])){
-    redirect(web_root."admin/index.php");
-}
-```
-
-However, since the `redirect()` function only outputs `<script>window.location=...</script>` without calling `exit/die` (i.e., the C-07 vulnerability), PHP code continues to execute after the JS redirect output. Therefore, even if the session check fails, the file upload logic in `doInsert()` is still executed, allowing attackers to upload a web shell without any valid login session.
-
-Additionally, after a successful login via rider/login.php, the session sets `$_SESSION['EMPID']`, while this check verifies `$_SESSION['USERID']` (i.e., the C-09 session key mismatch), meaning that even logging in as a rider cannot pass this authentication check. However, this design flaw does not affect the attack, since the JS redirect does not terminate execution.
 
 **Affected Code**:
 
