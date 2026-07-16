@@ -115,10 +115,10 @@ PHP syntax critical characters (`$`, `{`, `}`, `<`, `>`, `'`, `"`) can all be pe
     - Тип страницы (Page Type): Select **PHP**
 4. Click "Создать" to create
 
-![image-20260716193120234](C:\Users\Shawn\AppData\Roaming\Typora\typora-user-images\image-20260716193120234.png)
+![image-20260716193120234](./my_imgs/roocms-1.png)
 
 ### **Step 2: Edit PHP Page Content**
-1. Visit http://localhost:8896/acp.php?act=structure![image-20260716193210905](C:\Users\Shawn\AppData\Roaming\Typora\typora-user-images\image-20260716193210905.png)
+1. Visit http://localhost:8896/acp.php?act=structure![image-20260716193210905](./my_imgs/roocms-2.png)
 2. Find `C04-Eval-Test`, click the edit button, navigate to page [http://localhost:8896/acp.php?act=pages&part=edit&page=2](http://localhost:8896/acp.php?act=pages&part=edit&page=2)
 3. Enter the following in the editor:
 
@@ -126,7 +126,7 @@ PHP syntax critical characters (`$`, `{`, `}`, `<`, `>`, `'`, `"`) can all be pe
 echo file_get_contents("C:\\Windows\\win.ini");
 ```
 
-![image-20260716193240445](C:\Users\Shawn\AppData\Roaming\Typora\typora-user-images\image-20260716193240445.png)
+![image-20260716193240445](./my_imgs/roocms-3.png)
 
 4. Click "Обновить" to update
 
@@ -142,7 +142,7 @@ echo file_get_contents("C:\\Windows\\win.ini");
 
 eval code execution confirmed, win.ini contents echoed as follows
 
-![image-20260716193256799](C:\Users\Shawn\AppData\Roaming\Typora\typora-user-images\image-20260716193256799.png)
+![image-20260716193256799](./my_imgs/roocms-4.png)
 
 
 
