@@ -85,7 +85,7 @@ sidebarLogin=1&U_USERNAME=test' AND (SELECT 4370 FROM (SELECT(SLEEP(5)))WlQA)-- 
 
 sqlmap execution screenshot:
 
-![image-20260716192550810](C:\Users\Shawn\AppData\Roaming\Typora\typora-user-images\image-20260716192550810.png)
+![image-20260716192550810](./my_imgs/c02.png)
 
 ---
 
