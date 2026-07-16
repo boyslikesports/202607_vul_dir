@@ -149,11 +149,11 @@ The `type C:\Windows\win.ini` command was successfully executed, and the content
 
 The execution screenshot shows that after uploading the web shell, the return code is 200 and the contents of the win.ini file can be displayed:
 
-![image-20260716192743080](C:\Users\Shawn\AppData\Roaming\Typora\typora-user-images\image-20260716192743080.png)
+![image-20260716192743080](./my_imgs/c10-1.png)
 
 ---
 
-![image-20260716192758648](C:\Users\Shawn\AppData\Roaming\Typora\typora-user-images\image-20260716192758648.png)
+![image-20260716192758648](./my_imgs/c10-2.png)
 
 
 
