@@ -61,11 +61,11 @@ btnLogin=1&emp_email=test' AND (SELECT 9451 FROM (SELECT(SLEEP(5)))pIcV)-- GOaF&
 
 sqlmap execution screenshot:
 
-![image-20260716192513822](C:\Users\Shawn\AppData\Roaming\Typora\typora-user-images\image-20260716192513822.png)
+![image-20260716192513822](./my_imgs/c01-1.png)
 
 
 
-![image-20260716192526408](C:\Users\Shawn\AppData\Roaming\Typora\typora-user-images\image-20260716192526408.png)
+![image-20260716192526408](./my_imgs/c01-2.png)
 
 ## 6. Remediation
 1. **Use Parameterized Queries**
