@@ -87,7 +87,7 @@ location=<script>alert(1)</script>
 
 The browser popup displays `1`, confirming that the JavaScript code was successfully executed.
 
-![image-20260716192911756](C:\Users\Shawn\AppData\Roaming\Typora\typora-user-images\image-20260716192911756.png)
+![image-20260716192911756](./my_imgs/h06.png)
 
 ## 6. Remediation
 1. **Output Encoding**: All user data output to HTML must be entity-encoded using `htmlspecialchars()`
