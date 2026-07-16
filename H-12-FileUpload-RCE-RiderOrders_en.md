@@ -141,8 +141,6 @@ MAPI=1
 
 The `type C:\Windows\win.ini` command was successfully executed, and the contents of the `win.ini` file were fully output, confirming successful remote code execution.
 
-**Key Note**: Although the session check failed (`$_SESSION['USERID']` does not exist) and `redirect()` output JS redirect code, PHP continued to execute `move_uploaded_file()`, and the file was successfully uploaded. This verifies the chained exploitation effect of the C-07 vulnerability.
-
 The execution screenshot shows that after uploading the web shell, the return code is 200 and the contents of the win.ini file can be displayed:
 
 ![image-20260716192924026](./my_imgs/h12-1.png)
