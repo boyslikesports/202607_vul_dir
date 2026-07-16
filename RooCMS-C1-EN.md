@@ -118,7 +118,10 @@ PHP syntax critical characters (`$`, `{`, `}`, `<`, `>`, `'`, `"`) can all be pe
 ![image-20260716193120234](./my_imgs/roocms-1.png)
 
 ### **Step 2: Edit PHP Page Content**
-1. Visit http://localhost:8896/acp.php?act=structure![image-20260716193210905](./my_imgs/roocms-2.png)
+1. Visit http://localhost:8896/acp.php?act=structure
+
+![image-20260716193210905](./my_imgs/roocms-2.png)
+
 2. Find `C04-Eval-Test`, click the edit button, navigate to page [http://localhost:8896/acp.php?act=pages&part=edit&page=2](http://localhost:8896/acp.php?act=pages&part=edit&page=2)
 3. Enter the following in the editor:
 
