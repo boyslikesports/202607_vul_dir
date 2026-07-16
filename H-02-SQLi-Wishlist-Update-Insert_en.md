@@ -78,7 +78,7 @@ available databases [6]:
 
 sqlmap execution screenshot:
 
-![image-20260716192859239](C:\Users\Shawn\AppData\Roaming\Typora\typora-user-images\image-20260716192859239.png)
+![image-20260716192859239](./my_imgs/h02.png)
 
 ---
 
