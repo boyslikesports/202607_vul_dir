@@ -69,7 +69,7 @@ Connection: close
 
 **sqlmap execution screenshot:**
 
-![image-20260716192603279](C:\Users\Shawn\AppData\Roaming\Typora\typora-user-images\image-20260716192603279.png)
+![image-20260716192603279](./my_imgs/c03.png)
 
 ---
 
